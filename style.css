@@ -6,8 +6,8 @@ body{
   color: #ffffff;
 }
 .bgoverlay{
-  background: rgb(230,230,250);
-  background: rgba(230,230,250,0.7);
+  background: rgb(103,58,183);
+  background: rgba(103,58,183,0.7);
   position: absolute;
   top:0;
   left:0;
