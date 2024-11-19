@@ -63,7 +63,7 @@ body{
 .ico2:after{
   display: block;
   font-size: 20em;
-  color: #8A2BE2;
+  color: #ff4081;
   content: "\f004";
   font-family: FontAwesome;
   text-rendering: auto;
@@ -72,7 +72,7 @@ body{
 }
 .ico2:before,
 .ico2:after{
-  color: #4B0082;
+  color: #e91e63;
 }
 .ico:before{
   z-index: 3;
