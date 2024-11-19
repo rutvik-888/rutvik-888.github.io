@@ -16,25 +16,24 @@ document.body.addEventListener("touchmove", function(e) {
     currentScroll += deltaY;
 
     // Apply the scroll position (keeping it within bounds)
-    // Scroll the entire page by modifying the body's scrollTop
     document.documentElement.scrollTop = currentScroll;
     document.body.scrollTop = currentScroll;
 
     startTouchY = touchMoveY;  // Update the starting position for the next move
-}, false);
+}, { passive: false });
 
 // Optionally, you can handle the end of the swipe to finalize the scroll position
 document.body.addEventListener("touchend", function(e) {
     // You can add any additional logic to snap the scroll or adjust the position further if necessary
 }, false);
 
-
 $(document).ready(function(){
+  // Trigger animation on click
   $('.title').click(function(){
     $('.container').addClass('open');
   });
 
-
+  // Close animation on clicking the close button
   $('.close').click(function(){
     $('.container').removeClass('open');
   });
