@@ -27,3 +27,15 @@ document.body.addEventListener("touchmove", function(e) {
 document.body.addEventListener("touchend", function(e) {
     // You can add any additional logic to snap the scroll or adjust the position further if necessary
 }, false);
+
+
+$(document).ready(function(){
+  $('.title').click(function(){
+    $('.container').addClass('open');
+  });
+
+
+  $('.close').click(function(){
+    $('.container').removeClass('open');
+  });
+});
