@@ -132,11 +132,11 @@ body{
 
 @-webkit-keyframes explode {
     from {
-      transform: scale(1);
+      transform: scale(1.2);
       opacity: 1;
     }
     to {
-      transform: scale(1.6);
+      transform: scale(1.8);
       opacity: 0;
     }
 }
@@ -144,31 +144,31 @@ body{
 
 @keyframes explode {
     from {
-      transform: scale(1);
+      transform: scale(1.2);
       opacity: 1;
     }
     to {
-      transform: scale(1.6);
+      transform: scale(1.8);
       opacity: 0;
     }
 }
 @-webkit-keyframes explodeSmall {
     from {
-      transform: scale(1);
+      transform: scale(1.2);
       opacity: 1;
     }
     to {
-      transform: scale(1.2);
+      transform: scale(1.4);
       opacity: 0;
     }
 }
 @keyframes explodeSmall {
     from {
-      transform: scale(1);
+      transform: scale(1.2);
       opacity: 1;
     }
     to {
-      transform: scale(1.2);
+      transform: scale(1.4);
       opacity: 0;
     }
 }
@@ -176,10 +176,10 @@ body{
 
 @-webkit-keyframes open {
     from {
-      transform: scale(1);
+      transform: scale(1.2);
     }
     to {
-      transform: scale(10);
+      transform: scale(30);
     }
 }
 
