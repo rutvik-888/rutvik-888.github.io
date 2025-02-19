@@ -29,7 +29,7 @@ body{
 .open .ico{
   -webkit-animation: open 4s;
           animation: open 4s;
-  transform: scale(10);
+  transform: scale(30);
 }
 .ico .title{
   position: absolute;
@@ -189,7 +189,7 @@ body{
       transform: scale(1);
     }
     to {
-      transform: scale(10);
+      transform: scale(30);
     }
 }
 
