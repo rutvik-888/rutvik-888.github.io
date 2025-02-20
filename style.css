@@ -180,7 +180,7 @@ body{
       transform: scale(1);
     }
     to {
-      transform: scale(80);
+      transform: scale(75);
     }
 }
 
@@ -190,7 +190,7 @@ body{
       transform: scale(1);
     }
     to {
-      transform: scale(80);
+      transform: scale(75);
     }
 }
 
